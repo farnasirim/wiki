@@ -42,7 +42,8 @@ to the end of these firmware config files:
 
 `/usr/lib/firmware/updates/brcm/brcmfmac43455-sdio.txt`
 
-This fix can be found in [this git commit](https://github.com/piCorePlayer/firmware-rpi-wireless/commit/7d926a074484e1b43974273a0cdeed9cf3daff9c). The fix is experimental and is not yet deployed to the [upstream package](https://github.com/raspberrypi/firmware)
+This fix can be found in [this git commit](https://github.com/piCorePlayer/firmware
+wireless/commit/7d926a074484e1b43974273a0cdeed9cf3daff9c). The fix is experimental and is not yet deployed to the [upstream package](https://github.com/raspberrypi/firmware)
 
 ## Video
 The X.org driver for Raspberry Pi can be installed with the `xf86-video-fbdev` 
@@ -204,7 +205,7 @@ would have been closer to 1000.
 ## I/O Pins
 ### GPIO
 To be able to use the GPIO pins from Python, use the RPi.GPIO library. 
-Install the [python-rpi-gpiogpio](https://aur.archlinux.org/packages/python-rpi-gpio/) package
+Install the [python-rpi-gpio](https://aur.archlinux.org/packages/python-rpi-gpio/) package
 from the AUR.
 
 ### SPI
